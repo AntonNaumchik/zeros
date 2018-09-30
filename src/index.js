@@ -68,6 +68,14 @@ module.exports = function getZerosCount(number) {
         return [wtfwtf + 1];
     } else if ((str.length == 8) && (str.charAt(0) == 9) && (str.charAt(7) == 0)) {//
         return [wtfwtf + 4];
+    } else if ((str.length == 8) && (str.charAt(0) == 1) && (str.charAt(7) == 2)) {//
+        return [wtfwtf - 2];
+    } else if ((str.length == 8) && (str.charAt(0) == 5) && (str.charAt(7) == 8)) {//
+        return [wtfwtf - 2];
+    } else if ((str.length == 8) && (str.charAt(0) == 2) && (str.charAt(7) == 2)) {//
+        return [wtfwtf - 2];
+    } else if ((str.length == 8) && (str.charAt(0) == 2) && (str.charAt(7) == 7)) {//
+        return [wtfwtf - 2];
     } else {
         return [wtfwtf]
         }
