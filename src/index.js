@@ -35,4 +35,5 @@ module.exports = function getZerosCount(number) {
     } else {
         return [wtfwtf]
         }
-    }
+}
+//не успел бл*ть дописать
