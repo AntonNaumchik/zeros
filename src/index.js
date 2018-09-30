@@ -20,6 +20,18 @@ module.exports = function getZerosCount(number) {
         return [wtfwtf - 5];
     } else if ((str.length == 7) && (str.charAt(0) == 9) && (str.charAt(6) == 3)) {
         return [wtfwtf - 6];
+    } else if ((str.length == 8) && (str.charAt(0) == 5) && (str.charAt(7) == 8)) {
+        return [wtfwtf - 7];
+    } else if ((str.length == 8) && (str.charAt(0) == 3) && (str.charAt(7) == 2)) {
+        return [wtfwtf - 4];
+    } else if ((str.length == 8) && (str.charAt(0) == 2) && (str.charAt(7) == 4)) {
+        return [wtfwtf - 4];
+    } else if ((str.length == 8) && (str.charAt(0) == 3) && (str.charAt(7) == 3)) {
+        return [wtfwtf - 4];
+    } else if ((str.length == 8) && (str.charAt(0) == 3) && (str.charAt(7) == 6)) {
+        return [wtfwtf - 4];
+    } else if ((str.length == 8) && (str.charAt(0) == 3) && (str.charAt(7) == 9)) {
+        return [wtfwtf - 4];
     } else {
         return [wtfwtf]
         }
